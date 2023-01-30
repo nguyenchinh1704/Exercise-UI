@@ -60,4 +60,8 @@ public class ClockCutdown : MonoBehaviour
     {
         StopAllCoroutines();
     }
+    public void Close()
+    {
+        pnShow.close();
+    }
 }
